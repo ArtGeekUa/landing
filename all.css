@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+}
+
+body h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body img {
+    width: 300px;
+}
+
+.list-person {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-person li {
+    display: flex;
+    align-items: flex-start;
+}
+.text-holder{
+    margin: 0 0 0 20px;
+}
