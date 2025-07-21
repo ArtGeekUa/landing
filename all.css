@@ -16,17 +16,24 @@ body img {
 }
 
 .list-person {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     color: #fff;
     font-size: 20px;
     line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width:600px;
 }
 
 .list-person li {
+    margin: 0 0 20px;
     display: flex;
     align-items: flex-start;
+    border: 1px solid #fff;
+    border-radius:15px;
+    background-image: url(bg-03.webp);
+    background-color: #fff;
+    background-size: cover;
 }
 .text-holder{
     margin: 0 0 0 20px;
